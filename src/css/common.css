@@ -17,7 +17,7 @@ img {
   max-width: 100%;
 }
 
-button{
+/* button{
       font-family: "Open Sans", sans-serif;
       font-size: 16px;
       letter-spacing: 2px;
@@ -44,5 +44,44 @@ button:active {
       button{
         padding: 0.25em 0.75em;
       }
-    }
+    } */
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  
+  background-color: rgb(218, 218, 218);
+  padding: 10px 40px;
+  font-size: 18px;
+}
+
+button:focus {
+  background-color: rgb(153, 23, 0);
+  box-shadow: 2px 2px 2px 1px rgba(5, 5, 5, 0.2);
+  color: rgb(255, 255, 255);
+}
+
+input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+span {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  padding-right: 10px;
+}
